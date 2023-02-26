@@ -1,0 +1,84 @@
+:root {
+    --cor0: #000;
+    --cor1: #0D0D0D;
+    --cor2: #1A1A1A;
+    --cor3: #333;
+    --cor4: #4D4D4D;
+    --cor5: #666;
+    --cor6: #808080;
+    --cor7: #999;
+    --cor8: #B3B3B3;
+    --cor9: #CCC;
+    --cor10: #E6E6E6;
+    --cor11: #F2F2F2;
+    --cor12: #FFF;
+
+    --cor-p1: #CEE5D1;
+    --cor-p1: #79AD81;
+    --cor-p1: #417D4A;
+    --cor-p1: #21592A;
+    --cor-p1: #0A3311;
+    
+    --btn-gradient: linear-gradient(#79AD81, #417D4A);
+    --icon-gradient: linear-gradient(#C94061, #9D1A3A);
+}
+
+.cor0 {
+    color: var(--cor0);
+}
+
+.cor1 {
+    color: var(--cor1);
+}
+
+.cor2 {
+    color: var(--cor2);
+}
+
+.cor3 {
+    color: var(--cor3);
+}
+
+.cor4 {
+    color: var(--cor4);
+}
+
+.cor5 {
+    color: var(--cor5);
+}
+
+.cor6 {
+    color: var(--cor6);
+}
+
+.cor7 {
+    color: var(--cor7);
+}
+
+.cor8 {
+    color: var(--cor8);
+}
+
+.cor9 {
+    color: var(--cor9);
+}
+
+.cor10 {
+    color: var(--cor10);
+}
+
+.cor11 {
+    color: var(--cor11);
+}
+
+.cor12 {
+    color: var(--cor12);
+}
+
+.btn-gradient {
+    background: var(--btn-gradient);
+}
+
+.icon-gradient {
+    background: var(--icon-gradient);
+}

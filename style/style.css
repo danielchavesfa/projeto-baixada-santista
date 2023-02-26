@@ -1,0 +1,12 @@
+/* Global */
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+/* Componentes */
+@import url(./componentes/componentes.css);
+@import url(./componentes/cores.css);
+@import url(./componentes/tipografia.css);
+
+/* home */
+@import url(./home/municipios.css);
