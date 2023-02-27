@@ -2,3 +2,7 @@
     max-width: 1200px;
     margin: auto;
 }
+
+.auto-pad {
+    padding: 12px calc((100% - 1200px)/2);
+}

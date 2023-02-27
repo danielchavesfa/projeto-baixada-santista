@@ -1,0 +1,90 @@
+.municipios {
+    position: relative;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.municipios h1, .municipios p, .municipios .municipios-galeria {
+    padding: 0 12px;
+}
+
+.municipios h1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    grid-column: 2;
+    margin-bottom: 32px;
+}
+
+.municipios p {
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 32px;
+}
+
+.municipios h1::before {
+    content: '';
+    position: absolute;
+    background: var(--icon-gradient);
+    width: 20px;
+    height: 8px;
+    display: block;
+    left: -12px;
+}
+
+.municipios::after {
+    content: '';
+    position: absolute;
+    background: url('../../img/decoracao-background/ondas-background.svg') no-repeat center bottom;
+    width: 100%;
+    height: 800px;
+    top: 120px;
+    left: 0;
+    z-index: -1;
+}
+
+.mapa-img {
+    margin-bottom: 32px;
+}
+
+.municipios-galeria-bandeiras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 160px);
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+    .municipios {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .municipios::after {
+        height: 1800px;
+    }
+
+    .municipios h1 {
+        grid-column: 1;
+        align-items: start;
+    }
+
+    .municipios h1::before {
+        left: auto;
+    }
+
+    .municipios p {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .municipios-galeria-bandeiras {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .municipios-galeria-bandeiras img {
+        margin: 0 auto;
+    }
+}
