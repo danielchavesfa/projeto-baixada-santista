@@ -1,5 +1,6 @@
 .header {
     background: url('../../img/mapas/baixada-santista-do-espaco.jpg') no-repeat center;
+    background-size: cover;
     height: 900px;
     display: flex;
     flex-direction: column;
