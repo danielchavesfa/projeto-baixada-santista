@@ -1,0 +1,44 @@
+.paralax-resumo {
+    background: url('../../img/img-cidades/santos/santos-noite-1600x1066.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+.resumo {
+    background-color: var(--cor-p1);
+    padding: 0 calc((100% - 1200px)/2);
+    display: grid;
+    padding-bottom: 60px;
+}
+
+.resumo h1, .resumo p {
+    padding: 0 12px;
+}
+
+.resumo h1 {
+    padding-top: 60px;
+    padding-bottom: 32px;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.resumo h1::before {
+    content: '';
+    position: absolute;
+    background: var(--icon-gradient);
+    width: 20px;
+    height: 8px;
+    display: block;
+    left: -12px;
+}
+
+.resumo p {
+    margin-bottom: 60px;
+}
+
+.btn-resumo {
+    text-transform: uppercase;
+    place-self: end;
+    margin: 0 12px;
+}

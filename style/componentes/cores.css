@@ -20,6 +20,7 @@
     --cor-p5: #0A3311;
     
     --btn-gradient: linear-gradient(#79AD81, #417D4A);
+    --btn-gradient-hover: linear-gradient(#6ea176, #376d3f);
     --icon-gradient: linear-gradient(#C94061, #9D1A3A);
 }
 

@@ -1,0 +1,69 @@
+.footer {
+    background: url('../../img/img-cidades/santos/santos-1400x933.jpeg') no-repeat center bottom;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.conheca-outras {
+    grid-column: 1;
+}
+
+.conheca-outras a, .links-uteis-lista a {
+    color: var(--cor12);
+    font: var(--font-1-m-b);
+    transition: .3s;
+    padding: 12px 0;
+    display: inline-block;
+}
+
+.conheca-outras a:hover, .links-uteis-lista a:hover {
+    color: var(--cor10);
+    font: var(--font-1-m-b);
+}
+
+.links-uteis, .conheca-outras, .copy {
+    padding: 0 12px;
+}
+
+.links-uteis {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.conheca-outras h1, .links-uteis h2 {
+    padding-top: 60px;
+}
+
+.copy {
+    padding-bottom: 60px;
+    grid-row: 3;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+    
+    .links-uteis {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .links-uteis h2 {
+        font: var(--font-1-l);
+    }
+
+    .links-uteis h2 {
+        padding-top: 20px;
+    }
+
+    .logo {
+        grid-row: 3;
+        margin-top: 20px;
+    }
+
+    .copy {
+        grid-row: 4;
+    }
+}

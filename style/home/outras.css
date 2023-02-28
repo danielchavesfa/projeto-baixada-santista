@@ -60,12 +60,12 @@
 .outras-cidades-galeria img {
     position: absolute;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    transition: transform .3s;
+    border-radius: 4px;
 }
 
 .outras-cidades-galeria img:hover {
     transform: scale(1.1);
-    z-index: 6;
-    
 }
 
 .outras-cidades-galeria img:first-child {
@@ -107,8 +107,11 @@
 
     .outras-cidades-galeria {
         grid-row: initial;
-        margin-left: 50px;
-        margin-right: 20px;
+        margin: 0 30px 60px 30px;
+    }
+
+    .outras-cidades-galeria img {
+        position: static;
     }
 
     .outras-cidades-galeria img {
